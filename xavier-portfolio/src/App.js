@@ -5,11 +5,14 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <nav>About</nav>
-        <nav>Experience</nav>
-        <nav>Skills</nav>
-        <nav>Intrests</nav>
-        <nav>MyProjects</nav>
+        <img src="" alt="me" />
+        <nav>
+          <a>About</a>
+          <a>Experience</a>
+          <a>Skills</a>
+          <a>Intrests</a>
+          <a>MyProjects</a>
+        </nav>
       </div>
 
       <div className="body-container">
@@ -19,7 +22,7 @@ function App() {
           <p>xtwitty21@gmail.com</p>
         </div>
 
-        <div className="About container">
+        <section id="About" className="container">
           <p>
             Hi I’m Xavier, and I’m a 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫. I'm exploring
             current job offers amongst companies with a good work culture
@@ -45,12 +48,57 @@ function App() {
             people and I often can overcome many challenges through
             communication. My future career goal is to become a Senior Engineer.{" "}
           </p>
-        </div>
-        <div className="Experience container"></div>
-        <div className="Education container"></div>
-        <div className="Skills container"></div>
-        <div className="Intrests container"></div>
-        <div className="MyProjects container"></div>
+        </section>
+        <section id="Experience" className="container">
+          <h2>Experience</h2>
+          <h3> Contract Janitor</h3>
+          <h4> TXT Janitorial </h4>
+          <p>
+            Consult with diverse commercial clients within the city and
+            community to coordinate specific maintenance services.
+          </p>
+          <p>
+            {" "}
+            Logged 4+ employee hours using spreadsheets and improved employee
+            attendance and payroll tracking.
+          </p>
+        </section>
+        <section id="Education" className="container">
+          <h2>Education</h2>
+          <h3>Bloom Institute of Technology</h3>
+          <h4>Computer Software Engineering</h4>
+        </section>
+        <section id="Skills" className="container">
+          <h2>Skills</h2>
+          <h3>Programming Languages & Tools</h3>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>SQLite</li>
+          </ul>
+        </section>
+        <section id="Intrests" className="container">
+          <h2>Intrests</h2>
+          <p>
+            When i'm not writting code I enjoy working out at the YMCA. Going to
+            the gym is relaxing to me, it's something I like to do to relieve
+            stress and think about my day or what I want for the future. Aside
+            from exercising I like to watch action movies on HBO. Recently I
+            finished watching Game of Thones, before I began the series I had my
+            doubts about it but I think its pretty good for anyone that like to
+            binge watch tv shows. Im also a big sports fan , I love Basketball
+            and Football. I use to play both sports growing up , now I spend my
+            week nights and weekends watching the pros.
+          </p>
+        </section>
+        <section id="MyProjects" className="container">
+          <ul>
+            <li> Lx beauty</li>
+            <li> Lx beauty react</li>
+          </ul>
+        </section>
       </div>
     </div>
   );

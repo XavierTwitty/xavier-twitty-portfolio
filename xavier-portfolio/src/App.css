@@ -32,3 +32,8 @@ html {
 .container {
   height: 100%;
 }
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
