@@ -1,5 +1,4 @@
 import "./App.css";
-import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -56,7 +55,7 @@ function App() {
       <section id="Experience" className="container">
         <div className="inline">
           <h2>Experience</h2>
-          <p>2016 - Present</p>
+          <p>May 2016 - Present</p>
         </div>
         <h3> Contract Janitor</h3>
         <h4> TXT Janitorial </h4>
@@ -73,7 +72,7 @@ function App() {
       <section id="Education" className="container">
         <div className="inline">
           <h2>Education</h2>
-          <p>2020 - 2022 </p>
+          <p> June 2021 - September 2022 </p>
         </div>
 
         <h3>Bloom Institute of Technology</h3>
