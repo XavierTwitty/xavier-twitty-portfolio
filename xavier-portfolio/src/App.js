@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <img src="" alt="me" />
+        <img src="testing" alt="me" />
         <nav>
           <a href="#About">About</a>
           <a href="#Experience">Experience</a>
