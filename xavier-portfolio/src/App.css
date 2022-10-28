@@ -3,13 +3,14 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
+  color: white;
 }
 
 body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #4f4f4f;
-  /* background-color: blue; */
+  background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80);
 }
 
 html {
@@ -18,22 +19,97 @@ html {
 
 .header {
   width: 20%;
-  height: 100vh;
+  height: 90vh;
   position: fixed;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(122, 21, 122);
+  padding-top: 15%;
 }
 
-.body-container {
-  width: 80%;
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav a {
+  margin-top: 10%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 2.5rem;
+  color: rgb(133, 27, 182);
+}
+
+span {
+  color: rgb(122, 21, 122);
+}
+
+.titles {
+  width: 70%;
   margin-left: 20.7%;
-  margin-top: 7%;
+  padding-left: 5%;
+}
+
+h1 {
+  font-size: 6.5rem;
 }
 
 .container {
   height: 100%;
 }
 
-nav {
+section {
+  border-bottom: solid;
+  border-width: 2px;
+  margin-top: 3%;
+  margin-left: 20.7%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  width: 70%;
+}
+
+.titles {
+  padding-top: 15%;
+}
+
+.inline-top {
+  display: flex;
+}
+
+.inline-top h2 {
+  width: 30%;
+}
+
+.inline-top p {
+  width: 30%;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.inline {
+  display: flex;
+}
+
+.inline h2 {
+  width: 30%;
+}
+
+.inline p {
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  margin-left: 33%;
+}
+li {
+  list-style-position: inside;
+}
+
+.links {
   display: flex;
   flex-direction: column;
+}
+
+.links a:hover {
+  color: rgb(133, 27, 182);
 }
