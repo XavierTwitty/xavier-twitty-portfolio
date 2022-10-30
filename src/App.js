@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <div className="header">
         <img src={require("./images/IMG_1518.jpg")} alt="me" />
+
         <nav>
           <a href="#About">About</a>
           <a href="#Experience">Experience</a>
