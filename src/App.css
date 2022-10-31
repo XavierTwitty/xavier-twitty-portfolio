@@ -1,5 +1,5 @@
 * {
-  /* border: 2px solid grey; */
+  border: 2px solid grey;
   padding: 0;
   margin: 0;
   max-width: 100%;
@@ -111,6 +111,13 @@ section {
   width: 30%;
   margin-left: 33%;
 }
+
+.icon {
+  width: 4%;
+  height: 4%;
+  margin-left: 0.5%;
+}
+
 li {
   list-style-position: inside;
 }
@@ -179,6 +186,12 @@ li {
   .titles {
     margin-left: 13%;
   }
+
+  .icon {
+    width: 7%;
+    height: 7%;
+    margin-left: 0.5%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -216,5 +229,11 @@ li {
 
   .inline-top p {
     margin: 2%;
+  }
+
+  .icon {
+    width: 7%;
+    height: 7%;
+    margin-left: 0.5%;
   }
 }
